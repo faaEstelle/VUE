@@ -1,0 +1,51 @@
+.win-tool{
+  clear: both;
+  width: 100%;
+  background-color: #2a2e31;
+  color: #fff;
+  height: 40px;
+  padding:0 10px;
+  line-height: 38px;
+}
+.win-lf{
+  display: inline-block;
+}
+.win-rg{
+  float: right;
+}
+.win-rg a{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 16px;
+}
+.win-icon{
+  background: url("../img/winTool/icon.png") no-repeat;
+  width: 24px;
+  height: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.win-min{
+  background: url("../img/winTool/small.png") no-repeat;
+  width: 21px;
+  height: 1px;
+}
+.win-reset{
+  background: url("../img/winTool/reduction.png") no-repeat;
+  width: 19px;
+  height: 19px;
+}
+.win-max{
+  background: url("../img/winTool/big.png") no-repeat;
+  width: 19px;
+  height: 19px;
+}
+
+.win-close{
+  background: url("../img/winTool/close-hover.png") no-repeat;
+  background-size: cover;
+  width: 26px;
+  height: 26px;
+}
+

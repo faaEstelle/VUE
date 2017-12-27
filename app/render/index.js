@@ -2,19 +2,21 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import App from './App'
-import Loading from './pages/Loading.vue'
+
 import Index from './pages/Index'
+import Main from './pages/Main'
 
 Vue.use(VueRouter)
 Vue.config.debug = true
 
 const routes = [
+  // {
+  //   path: '/',
+  //   component: Index
+  // },
   {
-    path: '/',
-    component: Loading
-  }, {
-    path: '/Index',
-    component: Index
+    path:'/',
+    component:Main
   },
   {
     path: '*',

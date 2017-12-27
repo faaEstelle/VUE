@@ -7,6 +7,9 @@
 </template>
 <script>
   import 'bootstrap/dist/css/bootstrap.css'
+  import 'element-ui/lib/theme-chalk/index.css'
   import 'animate.css'
+  import '../css/common.css'
+  import '../css/component.css'
   import '../css/index.css'
 </script>　

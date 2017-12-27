@@ -95,6 +95,7 @@
     "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
+    "element-ui": "^2.0.9",
     "java": "^0.8.0",
     "log4js": "^2.3.3"
   }
