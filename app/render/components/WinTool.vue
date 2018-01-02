@@ -1,13 +1,15 @@
 <template>
   <div class="win-tool">
     <div class="win-lf">
-      <span class="win-icon"></span>
-      <span class="win-name">星云邮件分析系统-VUE</span>
+
+      <p class="win-name"> <span class="win-icon"></span>星云邮件分析系统-VUE</p>
     </div>
     <div class="win-rg">
-      <a class="win-min" @click = 'WinSmall'></a>
-      <a :class="[styles]" @click = 'Windubo'></a>
-      <a class="win-close" @click = 'WinClose'></a>
+      <a class="win-min pointer" @click = 'WinSmall'>
+        <span class="min-icon"></span>
+      </a>
+      <a :class="[styles]" class="pointer" @click = 'Windubo'></a>
+      <a class="win-close pointer" @click = 'WinClose'></a>
     </div>
   </div>
 </template>
@@ -32,6 +34,7 @@ export default{
   methods: {
     //窗口操作
     WinSmall: () => {
+      console.log('最小化')
       win.minimize()
     },
     WinClose: () => {

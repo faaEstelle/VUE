@@ -10,6 +10,10 @@
 .win-lf{
   display: inline-block;
 }
+.win-lf p{
+  display: inline-block;
+  font-size: 14px;
+}
 .win-rg{
   float: right;
 }
@@ -27,9 +31,14 @@
   margin-right: 10px;
 }
 .win-min{
+  height: 21px;
+  padding-top: 10px;
+}
+.min-icon{
   background: url("../img/winTool/small.png") no-repeat;
   width: 21px;
   height: 1px;
+  display: block;
 }
 .win-reset{
   background: url("../img/winTool/reduction.png") no-repeat;

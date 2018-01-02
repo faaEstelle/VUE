@@ -1,6 +1,7 @@
 <template>
   <transition enter-active-class="animated flipInY"  leave-active-class="animated flipOutY" mode="out-in" >
     <keep-alive>
+      <!--git测试merge-->
       <router-view></router-view>
     </keep-alive>
   </transition>
@@ -12,4 +13,5 @@
   import '../css/common.css'
   import '../css/component.css'
   import '../css/index.css'
+  import '../css/main.css'
 </script>　
