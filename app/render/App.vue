@@ -2,6 +2,9 @@
   <transition enter-active-class="animated flipInY"  leave-active-class="animated flipOutY" mode="out-in" >
     <keep-alive>
       <!--git测试merge-->
+
+
+
       <router-view></router-view>
     </keep-alive>
   </transition>
